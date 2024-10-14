@@ -1,0 +1,17 @@
+Based on the following user profile, please calculate the recommended daily intake of protein (in grams), calories, fat (in grams), and carbohydrates (in grams) to achieve their goals. Ensure that the response is in JSON format with no additional explanations or text.
+
+User Profile: {profile}
+
+Goals: {goals}
+
+Output Format:
+Return the result in JSON format only, with the keys: "protein", "calories", "fat", and "carbs". Each key should have a numerical value. Do not include any additional text or explanations, only the JSON object.
+
+Output Format
+    "protein": ,
+    "calories": ,
+    "fat": ,
+    "carbs":
+
+Notes:
+Ensure you do not include ```json ``` in the response, simply give me a valid json string with no formatting or display options
